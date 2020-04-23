@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@models/*": ["./database/models/*"],
+            "@services/*": ["./services/*"],
+            "@controllers/*": ["./controllers/*"],
+            "@utils/*": ["./utils/*"],
+            "@exception/*": ["./exception/*"],
+            "@config": ["./config/index.js"]
+        }
+    },
+    "include": ["./src/**/*"]
+}
